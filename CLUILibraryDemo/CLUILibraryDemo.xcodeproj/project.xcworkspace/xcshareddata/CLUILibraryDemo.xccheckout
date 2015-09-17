@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>35455D8A-9EE4-4178-88A2-9F88E1E251C7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F6DBA5EF38C1B0235D7DC3DAA7A64A2E5DFEF490</key>
+		<string>https://github.com/mclkyo/CLUILibrary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CLUILibraryDemo/CLUILibraryDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F6DBA5EF38C1B0235D7DC3DAA7A64A2E5DFEF490</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mclkyo/CLUILibrary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F6DBA5EF38C1B0235D7DC3DAA7A64A2E5DFEF490</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F6DBA5EF38C1B0235D7DC3DAA7A64A2E5DFEF490</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CLUILibrary</string>
+		</dict>
+	</array>
+</dict>
+</plist>
