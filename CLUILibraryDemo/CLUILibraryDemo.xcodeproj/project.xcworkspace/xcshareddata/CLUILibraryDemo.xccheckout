@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>35455D8A-9EE4-4178-88A2-9F88E1E251C7</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>CLUILibraryDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F6DBA5EF38C1B0235D7DC3DAA7A64A2E5DFEF490</key>
 		<string>https://github.com/mclkyo/CLUILibrary.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CLUILibraryDemo/CLUILibraryDemo.xcodeproj/project.xcworkspace</string>
+	<string>CLUILibraryDemo/CLUILibraryDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F6DBA5EF38C1B0235D7DC3DAA7A64A2E5DFEF490</key>

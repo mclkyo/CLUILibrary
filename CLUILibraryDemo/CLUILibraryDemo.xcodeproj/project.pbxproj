@@ -14,7 +14,6 @@
 		030321691BAA97D7008E33E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030321681BAA97D7008E33E2 /* Images.xcassets */; };
 		0303216C1BAA97D7008E33E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0303216A1BAA97D7008E33E2 /* LaunchScreen.xib */; };
 		030321781BAA97D7008E33E2 /* CLUILibraryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321771BAA97D7008E33E2 /* CLUILibraryDemoTests.m */; };
-		030321851BAA9833008E33E2 /* CLBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321841BAA9833008E33E2 /* CLBorderView.m */; };
 		030321881BAA996F008E33E2 /* UIView+PositionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321871BAA996F008E33E2 /* UIView+PositionExtension.m */; };
 /* End PBXBuildFile section */
 
@@ -42,8 +41,6 @@
 		030321711BAA97D7008E33E2 /* CLUILibraryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLUILibraryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		030321761BAA97D7008E33E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		030321771BAA97D7008E33E2 /* CLUILibraryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLUILibraryDemoTests.m; sourceTree = "<group>"; };
-		030321831BAA9833008E33E2 /* CLBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBorderView.h; sourceTree = "<group>"; };
-		030321841BAA9833008E33E2 /* CLBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBorderView.m; sourceTree = "<group>"; };
 		030321861BAA996F008E33E2 /* UIView+PositionExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PositionExtension.h"; sourceTree = "<group>"; };
 		030321871BAA996F008E33E2 /* UIView+PositionExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PositionExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,8 +128,6 @@
 			children = (
 				030321861BAA996F008E33E2 /* UIView+PositionExtension.h */,
 				030321871BAA996F008E33E2 /* UIView+PositionExtension.m */,
-				030321831BAA9833008E33E2 /* CLBorderView.h */,
-				030321841BAA9833008E33E2 /* CLBorderView.m */,
 			);
 			name = Libs;
 			path = ../../Libs;
@@ -241,7 +236,6 @@
 				030321881BAA996F008E33E2 /* UIView+PositionExtension.m in Sources */,
 				030321641BAA97D7008E33E2 /* ViewController.m in Sources */,
 				030321611BAA97D7008E33E2 /* AppDelegate.m in Sources */,
-				030321851BAA9833008E33E2 /* CLBorderView.m in Sources */,
 				0303215E1BAA97D6008E33E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +431,7 @@
 				0303217D1BAA97D7008E33E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0303217E1BAA97D7008E33E2 /* Build configuration list for PBXNativeTarget "CLUILibraryDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +440,7 @@
 				030321801BAA97D7008E33E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

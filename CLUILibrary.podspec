@@ -1,16 +1,15 @@
 Pod::Spec.new do |s|  
   s.name             = "CLUILibrary" 
-  s.version          = "0.1"  
+  s.version          = "0.1.1"  
   s.summary          = "UILibrary"  
   s.description  = <<-DESC
  			collection some control,effect,usually function
-			1.BorderView you can customer border color,border width in IB
-			2.PostionExtension easy use frame property, just uiview.width,view.left
+			1.PostionExtension easy use frame property, just uiview.width,view.left
                    DESC
   s.homepage         = "https://github.com/mclkyo/CLUILibrary"  
   s.license          = "MIT"  
   s.author           = { "mclkyo" => "mclkyo@gmail.com" }  
-  s.source           = { :git => "https://github.com/mclkyo/CLUILibrary.git", :tag => "0.1"}  
+  s.source           = { :git => "https://github.com/mclkyo/CLUILibrary.git", :tag => "0.1.1"}  
   s.platform     = :ios, "7.0"  
   s.requires_arc = true  
   s.source_files = "Libs/**/*.{h,m}"
