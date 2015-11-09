@@ -15,6 +15,7 @@
 		0303216C1BAA97D7008E33E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0303216A1BAA97D7008E33E2 /* LaunchScreen.xib */; };
 		030321781BAA97D7008E33E2 /* CLUILibraryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321771BAA97D7008E33E2 /* CLUILibraryDemoTests.m */; };
 		030321881BAA996F008E33E2 /* UIView+PositionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321871BAA996F008E33E2 /* UIView+PositionExtension.m */; };
+		0360A3931BF0769D00A33D58 /* UIView+TapEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0360A3921BF0769D00A33D58 /* UIView+TapEvent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		030321771BAA97D7008E33E2 /* CLUILibraryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLUILibraryDemoTests.m; sourceTree = "<group>"; };
 		030321861BAA996F008E33E2 /* UIView+PositionExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PositionExtension.h"; sourceTree = "<group>"; };
 		030321871BAA996F008E33E2 /* UIView+PositionExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PositionExtension.m"; sourceTree = "<group>"; };
+		0360A3911BF0769D00A33D58 /* UIView+TapEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapEvent.h"; sourceTree = "<group>"; };
+		0360A3921BF0769D00A33D58 /* UIView+TapEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapEvent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,8 @@
 			children = (
 				030321861BAA996F008E33E2 /* UIView+PositionExtension.h */,
 				030321871BAA996F008E33E2 /* UIView+PositionExtension.m */,
+				0360A3911BF0769D00A33D58 /* UIView+TapEvent.h */,
+				0360A3921BF0769D00A33D58 /* UIView+TapEvent.m */,
 			);
 			name = Libs;
 			path = ../../Libs;
@@ -237,6 +242,7 @@
 				030321641BAA97D7008E33E2 /* ViewController.m in Sources */,
 				030321611BAA97D7008E33E2 /* AppDelegate.m in Sources */,
 				0303215E1BAA97D6008E33E2 /* main.m in Sources */,
+				0360A3931BF0769D00A33D58 /* UIView+TapEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
