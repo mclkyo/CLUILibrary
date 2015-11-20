@@ -15,6 +15,15 @@
 		0303216C1BAA97D7008E33E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0303216A1BAA97D7008E33E2 /* LaunchScreen.xib */; };
 		030321781BAA97D7008E33E2 /* CLUILibraryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321771BAA97D7008E33E2 /* CLUILibraryDemoTests.m */; };
 		030321881BAA996F008E33E2 /* UIView+PositionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321871BAA996F008E33E2 /* UIView+PositionExtension.m */; };
+		034B7E831BFEF45F00DEDA09 /* CLCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E7B1BFEF45F00DEDA09 /* CLCircleView.m */; };
+		034B7E841BFEF45F00DEDA09 /* CLGestureLockConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E7D1BFEF45F00DEDA09 /* CLGestureLockConfig.m */; };
+		034B7E851BFEF45F00DEDA09 /* CLGestureLockPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E7F1BFEF45F00DEDA09 /* CLGestureLockPanel.m */; };
+		034B7E861BFEF45F00DEDA09 /* CLGestureTipPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E821BFEF45F00DEDA09 /* CLGestureTipPanel.m */; };
+		034B7E8A1BFEF46600DEDA09 /* CALayer+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E891BFEF46600DEDA09 /* CALayer+Shake.m */; };
+		034B7E901BFEF63F00DEDA09 /* SetGestureLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E8F1BFEF63F00DEDA09 /* SetGestureLockViewController.m */; };
+		034B7E931BFEF64D00DEDA09 /* VerifyGestureLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E921BFEF64D00DEDA09 /* VerifyGestureLockViewController.m */; };
+		034B7E961BFEFF8000DEDA09 /* UIView+Bounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E951BFEFF8000DEDA09 /* UIView+Bounce.m */; };
+		034B7E991BFF009700DEDA09 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034B7E981BFF009700DEDA09 /* AnimationViewController.m */; };
 		0360A3931BF0769D00A33D58 /* UIView+TapEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0360A3921BF0769D00A33D58 /* UIView+TapEvent.m */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +53,25 @@
 		030321771BAA97D7008E33E2 /* CLUILibraryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLUILibraryDemoTests.m; sourceTree = "<group>"; };
 		030321861BAA996F008E33E2 /* UIView+PositionExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PositionExtension.h"; sourceTree = "<group>"; };
 		030321871BAA996F008E33E2 /* UIView+PositionExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PositionExtension.m"; sourceTree = "<group>"; };
+		034B7E7A1BFEF45F00DEDA09 /* CLCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCircleView.h; sourceTree = "<group>"; };
+		034B7E7B1BFEF45F00DEDA09 /* CLCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCircleView.m; sourceTree = "<group>"; };
+		034B7E7C1BFEF45F00DEDA09 /* CLGestureLockConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGestureLockConfig.h; sourceTree = "<group>"; };
+		034B7E7D1BFEF45F00DEDA09 /* CLGestureLockConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLGestureLockConfig.m; sourceTree = "<group>"; };
+		034B7E7E1BFEF45F00DEDA09 /* CLGestureLockPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGestureLockPanel.h; sourceTree = "<group>"; };
+		034B7E7F1BFEF45F00DEDA09 /* CLGestureLockPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLGestureLockPanel.m; sourceTree = "<group>"; };
+		034B7E801BFEF45F00DEDA09 /* CLGestureLockPanelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGestureLockPanelDelegate.h; sourceTree = "<group>"; };
+		034B7E811BFEF45F00DEDA09 /* CLGestureTipPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLGestureTipPanel.h; sourceTree = "<group>"; };
+		034B7E821BFEF45F00DEDA09 /* CLGestureTipPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLGestureTipPanel.m; sourceTree = "<group>"; };
+		034B7E881BFEF46600DEDA09 /* CALayer+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Shake.h"; sourceTree = "<group>"; };
+		034B7E891BFEF46600DEDA09 /* CALayer+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Shake.m"; sourceTree = "<group>"; };
+		034B7E8E1BFEF63F00DEDA09 /* SetGestureLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGestureLockViewController.h; sourceTree = "<group>"; };
+		034B7E8F1BFEF63F00DEDA09 /* SetGestureLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGestureLockViewController.m; sourceTree = "<group>"; };
+		034B7E911BFEF64D00DEDA09 /* VerifyGestureLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyGestureLockViewController.h; sourceTree = "<group>"; };
+		034B7E921BFEF64D00DEDA09 /* VerifyGestureLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyGestureLockViewController.m; sourceTree = "<group>"; };
+		034B7E941BFEFF8000DEDA09 /* UIView+Bounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Bounce.h"; sourceTree = "<group>"; };
+		034B7E951BFEFF8000DEDA09 /* UIView+Bounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Bounce.m"; sourceTree = "<group>"; };
+		034B7E971BFF009700DEDA09 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		034B7E981BFF009700DEDA09 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		0360A3911BF0769D00A33D58 /* UIView+TapEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TapEvent.h"; sourceTree = "<group>"; };
 		0360A3921BF0769D00A33D58 /* UIView+TapEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TapEvent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +124,12 @@
 				030321681BAA97D7008E33E2 /* Images.xcassets */,
 				0303216A1BAA97D7008E33E2 /* LaunchScreen.xib */,
 				0303215B1BAA97D6008E33E2 /* Supporting Files */,
+				034B7E8E1BFEF63F00DEDA09 /* SetGestureLockViewController.h */,
+				034B7E8F1BFEF63F00DEDA09 /* SetGestureLockViewController.m */,
+				034B7E911BFEF64D00DEDA09 /* VerifyGestureLockViewController.h */,
+				034B7E921BFEF64D00DEDA09 /* VerifyGestureLockViewController.m */,
+				034B7E971BFF009700DEDA09 /* AnimationViewController.h */,
+				034B7E981BFF009700DEDA09 /* AnimationViewController.m */,
 			);
 			path = CLUILibraryDemo;
 			sourceTree = "<group>";
@@ -129,6 +163,8 @@
 		030321821BAA9807008E33E2 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				034B7E871BFEF46600DEDA09 /* Animation */,
+				034B7E791BFEF45F00DEDA09 /* GestureLock */,
 				030321861BAA996F008E33E2 /* UIView+PositionExtension.h */,
 				030321871BAA996F008E33E2 /* UIView+PositionExtension.m */,
 				0360A3911BF0769D00A33D58 /* UIView+TapEvent.h */,
@@ -136,6 +172,33 @@
 			);
 			name = Libs;
 			path = ../../Libs;
+			sourceTree = "<group>";
+		};
+		034B7E791BFEF45F00DEDA09 /* GestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				034B7E7A1BFEF45F00DEDA09 /* CLCircleView.h */,
+				034B7E7B1BFEF45F00DEDA09 /* CLCircleView.m */,
+				034B7E7C1BFEF45F00DEDA09 /* CLGestureLockConfig.h */,
+				034B7E7D1BFEF45F00DEDA09 /* CLGestureLockConfig.m */,
+				034B7E7E1BFEF45F00DEDA09 /* CLGestureLockPanel.h */,
+				034B7E7F1BFEF45F00DEDA09 /* CLGestureLockPanel.m */,
+				034B7E801BFEF45F00DEDA09 /* CLGestureLockPanelDelegate.h */,
+				034B7E811BFEF45F00DEDA09 /* CLGestureTipPanel.h */,
+				034B7E821BFEF45F00DEDA09 /* CLGestureTipPanel.m */,
+			);
+			path = GestureLock;
+			sourceTree = "<group>";
+		};
+		034B7E871BFEF46600DEDA09 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				034B7E881BFEF46600DEDA09 /* CALayer+Shake.h */,
+				034B7E891BFEF46600DEDA09 /* CALayer+Shake.m */,
+				034B7E941BFEFF8000DEDA09 /* UIView+Bounce.h */,
+				034B7E951BFEFF8000DEDA09 /* UIView+Bounce.m */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +301,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034B7E901BFEF63F00DEDA09 /* SetGestureLockViewController.m in Sources */,
+				034B7E841BFEF45F00DEDA09 /* CLGestureLockConfig.m in Sources */,
 				030321881BAA996F008E33E2 /* UIView+PositionExtension.m in Sources */,
 				030321641BAA97D7008E33E2 /* ViewController.m in Sources */,
 				030321611BAA97D7008E33E2 /* AppDelegate.m in Sources */,
+				034B7E961BFEFF8000DEDA09 /* UIView+Bounce.m in Sources */,
 				0303215E1BAA97D6008E33E2 /* main.m in Sources */,
 				0360A3931BF0769D00A33D58 /* UIView+TapEvent.m in Sources */,
+				034B7E851BFEF45F00DEDA09 /* CLGestureLockPanel.m in Sources */,
+				034B7E991BFF009700DEDA09 /* AnimationViewController.m in Sources */,
+				034B7E931BFEF64D00DEDA09 /* VerifyGestureLockViewController.m in Sources */,
+				034B7E861BFEF45F00DEDA09 /* CLGestureTipPanel.m in Sources */,
+				034B7E8A1BFEF46600DEDA09 /* CALayer+Shake.m in Sources */,
+				034B7E831BFEF45F00DEDA09 /* CLCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
