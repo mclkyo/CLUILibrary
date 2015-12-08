@@ -47,15 +47,28 @@
                                     <segue destination="4Ol-UK-ur5" kind="show" id="alT-QV-SbY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zJ-qq-q7A">
+                                <rect key="frame" x="105" y="313" width="60" height="30"/>
+                                <state key="normal" title="线性布局">
+                                    <color key="titleColor" red="0.077407965329999995" green="0.252474908" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="SFL-t2-27D" kind="show" id="ma5-bx-1du"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2pc-B1-oib" firstAttribute="top" secondItem="2zJ-qq-q7A" secondAttribute="top" id="6il-qB-jS4"/>
                             <constraint firstItem="4ZJ-ov-N36" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="179" id="B5l-qL-4dF"/>
                             <constraint firstItem="4ZJ-ov-N36" firstAttribute="leading" secondItem="gR2-jq-YAc" secondAttribute="trailing" constant="88" id="FSq-gk-n0w"/>
                             <constraint firstItem="4ZJ-ov-N36" firstAttribute="top" secondItem="gR2-jq-YAc" secondAttribute="top" id="PdO-cq-Yq9"/>
                             <constraint firstItem="2pc-B1-oib" firstAttribute="top" secondItem="4ZJ-ov-N36" secondAttribute="bottom" constant="40" id="QMI-7U-47i"/>
+                            <constraint firstItem="2zJ-qq-q7A" firstAttribute="top" secondItem="gR2-jq-YAc" secondAttribute="bottom" constant="40" id="U0c-9R-Rj0"/>
                             <constraint firstAttribute="centerX" secondItem="4ZJ-ov-N36" secondAttribute="centerX" constant="-5" id="c5y-oG-kKB"/>
+                            <constraint firstItem="gR2-jq-YAc" firstAttribute="trailing" secondItem="2zJ-qq-q7A" secondAttribute="trailing" constant="7" id="fZx-mI-AgV"/>
                             <constraint firstAttribute="centerX" secondItem="2pc-B1-oib" secondAttribute="centerX" constant="-13" id="xc0-Gg-ydl"/>
                         </constraints>
                     </view>
@@ -63,7 +76,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="878" y="479"/>
+            <point key="canvasLocation" x="-212" y="466"/>
+        </scene>
+        <!--Linear View Controller-->
+        <scene sceneID="M9t-0B-qZF">
+            <objects>
+                <viewController id="SFL-t2-27D" customClass="LinearViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cI0-Ak-Syc"/>
+                        <viewControllerLayoutGuide type="bottom" id="PJ6-0p-fRV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sB9-IC-ivH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="200" translatesAutoresizingMaskIntoConstraints="NO" id="c6B-gr-wKw" customClass="CLLinearLayoutView">
+                                <rect key="frame" x="96" y="104" width="408" height="200"/>
+                                <color key="backgroundColor" red="0.64670398340000002" green="0.92313949039999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="c6B-gr-wKw" secondAttribute="trailing" constant="80" id="Jxc-g1-QqL"/>
+                            <constraint firstItem="c6B-gr-wKw" firstAttribute="top" secondItem="cI0-Ak-Syc" secondAttribute="bottom" constant="40" id="YqA-Sa-ml1"/>
+                            <constraint firstItem="c6B-gr-wKw" firstAttribute="leading" secondItem="sB9-IC-ivH" secondAttribute="leadingMargin" constant="80" id="ggg-fh-G13"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="linearLayout" destination="c6B-gr-wKw" id="VhC-Up-kUh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZXU-t5-meg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-212" y="1357"/>
         </scene>
         <!--Animation View Controller-->
         <scene sceneID="Mat-Vz-RDX">
@@ -228,7 +273,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bmz-4n-fC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="69" y="474"/>
+            <point key="canvasLocation" x="-1323" y="466"/>
         </scene>
     </scenes>
 </document>

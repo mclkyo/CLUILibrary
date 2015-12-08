@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030024CF1C166D780076DFCB /* CLLinearLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030024CE1C166D780076DFCB /* CLLinearLayoutView.m */; };
+		030024D21C1676420076DFCB /* LinearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030024D11C1676420076DFCB /* LinearViewController.m */; };
+		030024D41C1676EB0076DFCB /* t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 030024D31C1676EB0076DFCB /* t.jpg */; };
+		030024D71C167B7C0076DFCB /* UIView+GetLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 030024D61C167B7C0076DFCB /* UIView+GetLayoutConstraint.m */; };
 		0303215E1BAA97D6008E33E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0303215D1BAA97D6008E33E2 /* main.m */; };
 		030321611BAA97D7008E33E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321601BAA97D7008E33E2 /* AppDelegate.m */; };
 		030321641BAA97D7008E33E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030321631BAA97D7008E33E2 /* ViewController.m */; };
@@ -38,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030024CD1C166D780076DFCB /* CLLinearLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLinearLayoutView.h; sourceTree = "<group>"; };
+		030024CE1C166D780076DFCB /* CLLinearLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLinearLayoutView.m; sourceTree = "<group>"; };
+		030024D01C1676420076DFCB /* LinearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearViewController.h; sourceTree = "<group>"; };
+		030024D11C1676420076DFCB /* LinearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearViewController.m; sourceTree = "<group>"; };
+		030024D31C1676EB0076DFCB /* t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = t.jpg; sourceTree = "<group>"; };
+		030024D51C167B7C0076DFCB /* UIView+GetLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GetLayoutConstraint.h"; sourceTree = "<group>"; };
+		030024D61C167B7C0076DFCB /* UIView+GetLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetLayoutConstraint.m"; sourceTree = "<group>"; };
 		030321581BAA97D6008E33E2 /* CLUILibraryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLUILibraryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0303215C1BAA97D6008E33E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0303215D1BAA97D6008E33E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +105,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030024CC1C166D540076DFCB /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				030024D51C167B7C0076DFCB /* UIView+GetLayoutConstraint.h */,
+				030024D61C167B7C0076DFCB /* UIView+GetLayoutConstraint.m */,
+				030024CD1C166D780076DFCB /* CLLinearLayoutView.h */,
+				030024CE1C166D780076DFCB /* CLLinearLayoutView.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		0303214F1BAA97D6008E33E2 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +137,7 @@
 		0303215A1BAA97D6008E33E2 /* CLUILibraryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				030024D31C1676EB0076DFCB /* t.jpg */,
 				030321821BAA9807008E33E2 /* Libs */,
 				0303215F1BAA97D7008E33E2 /* AppDelegate.h */,
 				030321601BAA97D7008E33E2 /* AppDelegate.m */,
@@ -130,6 +153,8 @@
 				034B7E921BFEF64D00DEDA09 /* VerifyGestureLockViewController.m */,
 				034B7E971BFF009700DEDA09 /* AnimationViewController.h */,
 				034B7E981BFF009700DEDA09 /* AnimationViewController.m */,
+				030024D01C1676420076DFCB /* LinearViewController.h */,
+				030024D11C1676420076DFCB /* LinearViewController.m */,
 			);
 			path = CLUILibraryDemo;
 			sourceTree = "<group>";
@@ -163,6 +188,7 @@
 		030321821BAA9807008E33E2 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				030024CC1C166D540076DFCB /* Layout */,
 				034B7E871BFEF46600DEDA09 /* Animation */,
 				034B7E791BFEF45F00DEDA09 /* GestureLock */,
 				030321861BAA996F008E33E2 /* UIView+PositionExtension.h */,
@@ -281,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030024D41C1676EB0076DFCB /* t.jpg in Resources */,
 				030321671BAA97D7008E33E2 /* Main.storyboard in Resources */,
 				0303216C1BAA97D7008E33E2 /* LaunchScreen.xib in Resources */,
 				030321691BAA97D7008E33E2 /* Images.xcassets in Resources */,
@@ -301,16 +328,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030024D71C167B7C0076DFCB /* UIView+GetLayoutConstraint.m in Sources */,
 				034B7E901BFEF63F00DEDA09 /* SetGestureLockViewController.m in Sources */,
 				034B7E841BFEF45F00DEDA09 /* CLGestureLockConfig.m in Sources */,
 				030321881BAA996F008E33E2 /* UIView+PositionExtension.m in Sources */,
 				030321641BAA97D7008E33E2 /* ViewController.m in Sources */,
 				030321611BAA97D7008E33E2 /* AppDelegate.m in Sources */,
+				030024CF1C166D780076DFCB /* CLLinearLayoutView.m in Sources */,
 				034B7E961BFEFF8000DEDA09 /* UIView+Bounce.m in Sources */,
 				0303215E1BAA97D6008E33E2 /* main.m in Sources */,
 				0360A3931BF0769D00A33D58 /* UIView+TapEvent.m in Sources */,
 				034B7E851BFEF45F00DEDA09 /* CLGestureLockPanel.m in Sources */,
 				034B7E991BFF009700DEDA09 /* AnimationViewController.m in Sources */,
+				030024D21C1676420076DFCB /* LinearViewController.m in Sources */,
 				034B7E931BFEF64D00DEDA09 /* VerifyGestureLockViewController.m in Sources */,
 				034B7E861BFEF45F00DEDA09 /* CLGestureTipPanel.m in Sources */,
 				034B7E8A1BFEF46600DEDA09 /* CALayer+Shake.m in Sources */,
