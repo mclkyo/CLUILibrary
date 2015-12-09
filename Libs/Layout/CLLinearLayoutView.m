@@ -33,7 +33,7 @@
 }
 
 -(id)initWithCoder:(NSCoder *)aDecoder{
-    self = [super init];
+    self = [super initWithCoder:aDecoder];
     [self CommonInit];
     return self;
 }
@@ -49,7 +49,7 @@
     _dirction = CLLinearLayoutDirectionHorzontial;
     _lstSubviews = [NSMutableArray array];
     self.translatesAutoresizingMaskIntoConstraints = NO;
-    self.opaque = NO;
+    //self.opaque = NO;
     if([self LayoutHeightConstraint]==nil)
         [self addConstraint:[NSLayoutConstraint constraintWithItem:self
                                   attribute:NSLayoutAttributeHeight
