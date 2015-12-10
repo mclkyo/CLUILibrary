@@ -18,11 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.linearLayout.offset = UIOffsetMake(10,10);
     for(int i=0;i<10;i++){
         UIImageView *img = [[UIImageView alloc]init];
         img.frame = CGRectMake(0, 0, 50, 50);
         img.image = [UIImage imageNamed:@"t.jpg"];
-        [self.linearLayout addViewWithMaring:img Margin:UIEdgeInsetsMake(0, 0, 10, 10)];
+        [self.linearLayout addViewWithMaring:img Margin:UIOffsetMake(10, 10)];
     }
     
 }

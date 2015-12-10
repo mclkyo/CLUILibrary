@@ -49,7 +49,7 @@
     _dirction = CLLinearLayoutDirectionHorzontial;
     _lstSubviews = [NSMutableArray array];
     self.translatesAutoresizingMaskIntoConstraints = NO;
-    //self.opaque = NO;
+    self.offset = UIOffsetZero;
     if([self LayoutHeightConstraint]==nil)
         [self addConstraint:[NSLayoutConstraint constraintWithItem:self
                                   attribute:NSLayoutAttributeHeight
@@ -66,17 +66,17 @@
 -(void)addView:(UIView *)subView{
     CLLinearLayoutItem *item = [[CLLinearLayoutItem alloc]init];
     item.view = subView;
-    item.insets = UIEdgeInsetsZero;
+    item.offset = UIOffsetZero;
     [_lstSubviews addObject:item];
     
     [self addSubview:subView];
 }
 
 
--(void)addViewWithMaring:(UIView *)subView Margin:(UIEdgeInsets)insets{
+-(void)addViewWithMaring:(UIView *)subView Margin:(UIOffset)offset{
     CLLinearLayoutItem *item = [[CLLinearLayoutItem alloc]init];
     item.view = subView;
-    item.insets = insets;
+    item.offset = offset;
     [_lstSubviews addObject:item];
     [self addSubview:subView];
 }
@@ -84,23 +84,21 @@
 
 -(void)layoutSubviews{
     CGRect rect = self.frame;
-    int left = 0;
-    int top = 0;
+    int left = self.offset.horizontal;
+    int top = self.offset.vertical;
     int bottomHeight = 0;
     
     for(int i=0; i< _lstSubviews.count;i++){
         CLLinearLayoutItem *item = (CLLinearLayoutItem*)_lstSubviews[i];
         
         if((left + item.view.frame.size.width)>= rect.size.width){
-            left = 0;
-            top += item.view.frame.size.height + item.insets.bottom;
-            
+            left = self.offset.horizontal;
+            top += item.view.frame.size.height + item.offset.vertical;
         }
         
         item.view.frame = CGRectMake(left, top, item.view.frame.size.width, item.view.frame.size.height);
-        left += item.view.frame.size.width + item.insets.right;
-        
-        bottomHeight = item.view.frame.size.height + item.insets.bottom;
+        left += item.view.frame.size.width + item.offset.horizontal;        
+        bottomHeight = item.view.frame.size.height + item.offset.vertical;
     }
     
     

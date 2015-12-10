@@ -17,7 +17,7 @@ typedef NS_ENUM (NSInteger,LinearyOutDirection){
 @interface CLLinearLayoutItem : NSObject
 
 @property(nonatomic,weak)UIView *view;
-@property(nonatomic,assign)UIEdgeInsets insets;
+@property(nonatomic,assign)UIOffset offset;
 
 @end
 
@@ -27,8 +27,9 @@ typedef NS_ENUM (NSInteger,LinearyOutDirection){
 
 
 -(void)addView:(UIView*)subView;
--(void)addViewWithMaring:(UIView*)subView Margin:(UIEdgeInsets)insets;
+-(void)addViewWithMaring:(UIView*)subView Margin:(UIOffset)offset;
 
+@property(nonatomic,assign)UIOffset offset;
 
 
 @end
